@@ -34,10 +34,6 @@ void PreorderTraversal(Node *root)
 
 int main(int argc, char **argv)
 {
-    if (argc != 2) {
-        system("cat Usage.txt");
-        return (TREE_ERROR);
-    }
     Node *tree = CreateDefaultTree();
     system("cat default.tree");
     while (true)
